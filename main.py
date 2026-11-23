@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Entry program for make.fun news-image-20261123.
 
-The poster image (entry.png, drawn by build_poster.py) sits beside
-this file in the repository. The grader runs this program twice in a
-sandbox with no network; each run copies the same image bytes to
-/output/entry.png, so both runs produce byte-identical output.
+The poster image (entry.png, composed by compose_entry.py from the
+illustrated artwork in candidates/) sits beside this file in the
+repository. The grader runs this program twice in a sandbox with no
+network; each run copies the same image bytes to /output/entry.png,
+so both runs produce byte-identical output.
 
 Outside the grader, MAKEFUN_OUTPUT_DIR stands in for /output:
     mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
